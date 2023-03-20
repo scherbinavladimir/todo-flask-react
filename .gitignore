@@ -25,6 +25,7 @@ httpie/
 .DS_Store
 node_modules
 /dist
+/fe/build
 
 
 # local env files
