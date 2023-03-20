@@ -1,10 +1,10 @@
 import flask
 import flask_praetorian
 import os
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, send_from_directory
 from models import db, User
 
-from flask_restful import Api, Resource, reqparse
+from flask_restful import Api
 
 from resources import TaskList, TaskDetail
 
