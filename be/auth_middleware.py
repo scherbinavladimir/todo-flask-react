@@ -26,8 +26,6 @@ def token_required(f):
                 "data": None,
                 "error": "Unauthorized"
             }, 401
-            # if not current_user["active"]:
-            #     abort(403)
         except Exception as e:
             return {
                 "message": "Something went wrong",

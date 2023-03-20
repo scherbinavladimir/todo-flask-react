@@ -6,12 +6,10 @@ import {useState} from "react";
 
 function TaskItem({task, loadTasks}){
     const authToken = useSelector(state => state.authToken)
-
     const [showEditModal, setShowEditModal] = useState(false)
     const setCheck = (e) => {
         api.updateTask(task.id, {...task, done: !task.done})
-            .then(()=>e.target.checked=!task.done)
-        loadTasks()
+            .then(()=>loadTasks())
     }
 
     return(

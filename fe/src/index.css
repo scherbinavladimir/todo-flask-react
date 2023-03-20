@@ -56,7 +56,7 @@ code {
     border-color: #60a951;
 }
 .task-list{
-    height: calc(100vh - 250px);
+    height: calc(100vh - 290px);
 }
 .task-item-wrap{
     height: 33.3%;
@@ -81,9 +81,9 @@ code {
     width: var(--size);
     height: var(--size);
     margin: 0 auto;
-    background-color: #ad3e34;
+    background-color: #b4b4b4;
     border-radius: 50%;
-    box-shadow: 0 var(--shadow) #ffbeb8;
+    box-shadow: 0 var(--shadow) #ececec;
     cursor: pointer;
     transition: 0.2s ease transform, 0.2s ease background-color,
       0.2s ease box-shadow;
@@ -103,14 +103,14 @@ code {
     background-color: #fff;
     transform: translateY(-50%);
     border-radius: 50%;
-    box-shadow: inset 0 var(--shadow) #ffbeb8;
+    box-shadow: inset 0 var(--shadow) #d9d9d9;
     transition: 0.2s ease width, 0.2s ease height;
   }
 
   .checkbox-wrapper-26 label:hover:before {
     width: calc(var(--size) * .55);
     height: calc(var(--size) * .55);
-    box-shadow: inset 0 var(--shadow) #ff9d96;
+    box-shadow: inset 0 var(--shadow) #b6b6b6;
   }
 
   .checkbox-wrapper-26 label:active {
